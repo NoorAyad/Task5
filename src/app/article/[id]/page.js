@@ -28,16 +28,17 @@ export default async function Article({ params }) {
             <h1> {data.blog.title}</h1>
             <p> {data.blog.category}</p>
           </div>
-          <span> {dayjs( data.blog.created_at).format("YYYY dd MM")}</span>
+          <span> {dayjs(data.blog.created_at).format("YYYY dd MM")}</span>
         </div>
         <div className={styles.cover}>
           <Image src={data.blog.photo_url} fill />
         </div>
-        <div className={styles.content} dangerouslySetInnerHTML={{__html:data.blog.content_html}}>
-         
-        </div>
+        <div
+          className={styles.content}
+          dangerouslySetInnerHTML={{ __html: data.blog.content_html }}
+        ></div>
       </Container>
-   
+
       <Footer />
     </main>
   );

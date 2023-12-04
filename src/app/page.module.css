@@ -34,7 +34,7 @@
   margin-top: -40px;
   position: relative;
   margin-bottom: 60px;
- 
+
 }
 
 .loadingContainer {
@@ -45,7 +45,7 @@
 }
 
 .loader {
-  color:#ff0000;
+  color: #ff0000;
   text-shadow: 2px 3px rgba(0, 0, 0, 0.369);
   position: relative;
   display: inline-block;
@@ -75,8 +75,8 @@
   left: 125px;
   top: 2px;
   border-radius: 50%;
-  background:  #e81515dd;
-    
+  background: #e81515dd;
+
   box-sizing: border-box;
   animation: animloader 1s ease-in infinite;
 }
@@ -92,12 +92,10 @@
   }
 
   50% {
-    transform: translateY(-10px) scaleY(1) scaleX(1.5) ;
+    transform: translateY(-10px) scaleY(1) scaleX(1.5);
   }
 
   100% {
     transform: translateY(8px) scaleY(2) scaleX(2);
   }
 }
-
- 

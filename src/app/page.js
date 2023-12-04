@@ -26,7 +26,6 @@ export default function Home() {
 
   return (
     <main className={styles.home}>
-   
       <Header />
       <div className={styles.cover}>
         <div className={styles.overlay}>
