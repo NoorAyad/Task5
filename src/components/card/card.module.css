@@ -1,0 +1,55 @@
+.card .img {
+    height: 150px;
+    background-color: #ccc;
+position: relative;
+
+}
+.card.img img{object-fit: "cover";}
+
+.card .title {
+    font-size: 15px;
+    font-weight: bold;
+margin-top: 8px;
+ margin-bottom:-10px;
+ animation: fadIn 0.8s;
+}
+
+.card .subtitle {
+    font-size: 12px;
+    color: #666;
+    animation: fadIn 1s;
+}
+
+.card .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -8px;
+    
+}
+
+.card .footer a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.card .footer span {
+    color: #666;
+    font-size: 14px;
+}
+.card{
+    animation: fadIn 0.6s;
+  }
+  
+  @keyframes fadIn {
+    0% {
+     opacity:0% ;
+     transform:translateY(10px);
+  ;
+    }
+  
+    100% {
+   opacity: 100%;
+   transform:translateY(0px);
+    }
+  }

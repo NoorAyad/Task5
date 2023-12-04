@@ -1,0 +1,26 @@
+
+.header{
+    border-bottom: 1px solid #eee;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+.header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.header .content ul{
+    display: flex;
+    list-style-type:none ;
+    gap:34px;
+
+}
+.header .content ul a {
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
